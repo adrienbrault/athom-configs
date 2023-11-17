@@ -20,16 +20,16 @@ ota:
 
 logger:
 
-web_server:
-  port: 80
+#web_server:
+#  port: 80
 
-wifi:
-  ap: {} # This spawns an AP with the device name and mac address with no password.
+#wifi:
+#  ap: {} # This spawns an AP with the device name and mac address with no password.
 
-captive_portal:
+#captive_portal:
 
 dashboard_import:
-  package_import_url: github://athom-tech/athom-configs/athom-garage-door.yaml
+  package_import_url: github://adrienbrault/athom-configs/athom-garage-door.yaml
 
 sensor:
   - platform: uptime
